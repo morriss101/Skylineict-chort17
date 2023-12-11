@@ -65,22 +65,28 @@ body{
         
     /* button starts here */
     
-    .btn{ 
+    .btn a{ 
         color: azure;
         background-color: rgb(87, 85, 180);
         border-radius:6px;
         /* width: 8%; */
         margin: auto;
-        color: beige;
+       justify-content: center;
         margin-bottom: 50px;
         width: 10%;
-        margin:auto;
-        padding-top: -15px;
-        padding-bottom:35px;
+        
+        /* padding-top: -15px; */
+        /* padding-bottom:35px; */
         height: 18px;
+        
+        text-decoration: none;
         /* line-height: 12px; */
       
-    }       
+    } 
+    .container .btn a{
+        align-content: center;
+        padding: 10px;
+    }      
     .fa-thumbs-down{
 
         color: red;

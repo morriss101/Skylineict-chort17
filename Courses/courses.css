@@ -101,6 +101,7 @@ button{
     border-radius: 5px;
     background-color: #bd2be2;
     border-style: none;
+    cursor: pointer;
 }
 
 .web2{
